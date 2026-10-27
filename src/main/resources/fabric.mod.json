@@ -1,1 +1,16 @@
-
+{
+  "schemaVersion": 1,
+  "id": "modmenu",
+  "version": "${version}",
+  "name": "Mod Menu Template",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.modmenu.ModMenu"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
